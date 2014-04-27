@@ -67,72 +67,72 @@ tgravityacc-mean-y
 
 ActivityName: Activity being performed
 SubjectID: ID indicating the subject from whom data was collected
-li tBodyAccMeanX
-li tBodyAccMeanY
-litBodyAccMeanZ
-litBodyAccStdX
-litBodyAccStdY
-litBodyAccStdZ
-litGravityAccMeanX
-litGravityAccMeanY
-litGravityAccMeanZ
-litGravityAccStdX
-litGravityAccStdY
-litGravityAccStdZ
-litBodyAccJerkMeanX
-litBodyAccJerkMeanY
-litBodyAccJerkMeanZ
-litBodyAccJerkStdX
-litBodyAccJerkStdY
-litBodyAccJerkStdZ
-litBodyGyroMeanX
-litBodyGyroMeanY
-litBodyGyroMeanZ
-litBodyGyroStdX
-litBodyGyroStdY
-litBodyGyroStdZ
-litBodyGyroJerkMeanX
-litBodyGyroJerkMeanY
-litBodyGyroJerkMeanZ
-litBodyGyroJerkStdX
-litBodyGyroJerkStdY
-litBodyGyroJerkStdZ
-litBodyAccMagMean
-litBodyAccMagStd
-litGravityAccMagMean
-litGravityAccMagStd
-litBodyAccJerkMagMean
-litBodyAccJerkMagStd
-litBodyGyroMagMean
-litBodyGyroMagStd
-litBodyGyroJerkMagMean
-litBodyGyroJerkMagStd
-lifBodyAccMeanX
-lifBodyAccMeanY
-lifBodyAccMeanZ
-lifBodyAccStdX
-lifBodyAccStdY
-lifBodyAccStdZ
-lifBodyAccJerkMeanX
-lifBodyAccJerkMeanY
-lifBodyAccJerkMeanZ
-lifBodyAccJerkStdX
-lifBodyAccJerkStdY
-lifBodyAccJerkStdZ
-lifBodyGyroMeanX
-lifBodyGyroMeanY
-lifBodyGyroMeanZ
-lifBodyGyroStdX
-lifBodyGyroStdY
-lifBodyGyroStdZ
-lifBodyAccMagMean
-lifBodyAccMagStd
-lifBodyBodyAccJerkMagMean
-lifBodyBodyAccJerkMagStd
-lifBodyBodyGyroMagMean
-lifBodyBodyGyroMagStd
-lifBodyBodyGyroJerkMagMean
-lifBodyBodyGyroJerkMagStd
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tBodyAccStdX
+* tBodyAccStdY
+* tBodyAccStdZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tGravityAccStdX
+* tGravityAccStdY
+* tGravityAccStdZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyAccJerkStdX
+* tBodyAccJerkStdY
+* tBodyAccJerkStdZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroStdX
+* tBodyGyroStdY
+* tBodyGyroStdZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyGyroJerkStdX
+* tBodyGyroJerkStdY
+* tBodyGyroJerkStdZ
+* tBodyAccMagMean
+* tBodyAccMagStd
+* tGravityAccMagMean
+* tGravityAccMagStd
+* tBodyAccJerkMagMean
+* tBodyAccJerkMagStd
+* tBodyGyroMagMean
+* tBodyGyroMagStd
+* tBodyGyroJerkMagMean
+* tBodyGyroJerkMagStd
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccStdX
+* fBodyAccStdY
+* fBodyAccStdZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkStdX
+* fBodyAccJerkStdY
+* fBodyAccJerkStdZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroStdX
+* fBodyGyroStdY
+* fBodyGyroStdZ
+* fBodyAccMagMean
+* fBodyAccMagStd
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagStd
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagStd
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagStd
 
 
 

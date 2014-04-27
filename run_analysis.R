@@ -1,5 +1,6 @@
 #setwd("")
 
+#Part A
 
 subj_test <- read.table("test/subject_test.txt")
 subj_train <- read.table("train/subject_train.txt")
@@ -15,7 +16,7 @@ Y <- rbind(y_test, y_train)
 
 
 
-
+#Part B
 
 feature <- read.table("features.txt")
 m_s_X <- grep("-mean\\(\\)|-std\\(\\)", feature[, 2])
@@ -25,6 +26,7 @@ names(X) <- gsub("\\(|\\)", "", names(X))
 names(X) <- tolower(names(X))
 
 
+#Part C
 
 activ <- read.table("activity_labels.txt")
 activ[, 2] = gsub("_", "", tolower(as.character(activ[, 2])))
@@ -32,12 +34,13 @@ Y[,1] = activ[Y[,1], 2]
 names(Y) <- "activity"
 
 
+#Part D
 
 names(subject) <- "subject"
 clean_data <- cbind(subject, X, Y)
 write.table(clean_data, "data_clean.txt")
 
-
+#Part E
 
 unique_subject = unique(subject)[,1]
 num_subject = length(unique(subject)[,1])

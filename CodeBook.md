@@ -1,10 +1,10 @@
-#Code Book
+##Code Book
 
-DATA SOURCE:
+###DATA SOURCE:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip .  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-STEPS:
+###STEPS:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -14,8 +14,7 @@ STEPS:
 
 
 
-
-Variable Descriptions :
+###Variable Descriptions :
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
@@ -44,10 +43,9 @@ The set of variables that were estimated from these signals are:
 
 mean: Mean value
 std: Standard deviation
-Data Columns
 
 
-Attribute names :
+###Attribute names :
 
 tbodyacc-mean-x
 
@@ -65,76 +63,76 @@ tgravityacc-mean-x
 
 tgravityacc-mean-y
 
-##Data Columns :
+###Data Columns :
 
 ActivityName: Activity being performed
 SubjectID: ID indicating the subject from whom data was collected
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
+litBodyAccMeanX
+litBodyAccMeanY
+litBodyAccMeanZ
+litBodyAccStdX
+litBodyAccStdY
+litBodyAccStdZ
+litGravityAccMeanX
+litGravityAccMeanY
+litGravityAccMeanZ
+litGravityAccStdX
+litGravityAccStdY
+litGravityAccStdZ
+litBodyAccJerkMeanX
+litBodyAccJerkMeanY
+litBodyAccJerkMeanZ
+litBodyAccJerkStdX
+litBodyAccJerkStdY
+litBodyAccJerkStdZ
+litBodyGyroMeanX
+litBodyGyroMeanY
+litBodyGyroMeanZ
+litBodyGyroStdX
+litBodyGyroStdY
+litBodyGyroStdZ
+litBodyGyroJerkMeanX
+litBodyGyroJerkMeanY
+litBodyGyroJerkMeanZ
+litBodyGyroJerkStdX
+litBodyGyroJerkStdY
+litBodyGyroJerkStdZ
+litBodyAccMagMean
+litBodyAccMagStd
+litGravityAccMagMean
+litGravityAccMagStd
+litBodyAccJerkMagMean
+litBodyAccJerkMagStd
+litBodyGyroMagMean
+litBodyGyroMagStd
+litBodyGyroJerkMagMean
+litBodyGyroJerkMagStd
+lifBodyAccMeanX
+lifBodyAccMeanY
+lifBodyAccMeanZ
+lifBodyAccStdX
+lifBodyAccStdY
+lifBodyAccStdZ
+lifBodyAccJerkMeanX
+lifBodyAccJerkMeanY
+lifBodyAccJerkMeanZ
+lifBodyAccJerkStdX
+lifBodyAccJerkStdY
+lifBodyAccJerkStdZ
+lifBodyGyroMeanX
+lifBodyGyroMeanY
+lifBodyGyroMeanZ
+lifBodyGyroStdX
+lifBodyGyroStdY
+lifBodyGyroStdZ
+lifBodyAccMagMean
+lifBodyAccMagStd
+lifBodyBodyAccJerkMagMean
+lifBodyBodyAccJerkMagStd
+lifBodyBodyGyroMagMean
+lifBodyBodyGyroMagStd
+lifBodyBodyGyroJerkMagMean
+lifBodyBodyGyroJerkMagStd
 
 
 

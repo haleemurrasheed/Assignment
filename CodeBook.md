@@ -67,8 +67,8 @@ tgravityacc-mean-y
 
 ActivityName: Activity being performed
 SubjectID: ID indicating the subject from whom data was collected
-litBodyAccMeanX
-litBodyAccMeanY
+li tBodyAccMeanX
+li tBodyAccMeanY
 litBodyAccMeanZ
 litBodyAccStdX
 litBodyAccStdY
